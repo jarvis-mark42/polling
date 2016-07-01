@@ -1,0 +1,31 @@
+body {
+    width: 1200px;
+    height: 700px;
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+}
+.result-table {
+    margin: 20px 0;
+    width: 100%;
+    border-collapse: collapse;
+}
+.result-table td { padding: 8px; }
+.result-table > tbody > tr > td:first-child {
+    width: 25%;
+    max-width: 300px;
+    text-align: right;
+}
+.result-table td table {
+    background-color: lightblue;
+    text-align: right;
+}
+
+.radio {
+    padding-left: 40px;
+}
+
+.col-xs-6 {
+
+}
